@@ -14,7 +14,7 @@ function App() {
   });
 
   if (isLoading) {
-    return <div style={{ textAlign: "center" }}>Loading ...</div>;
+    return <div style={{ textAlign: "center", marginTop: "80px" }}>Loading ...</div>;
   }
 
   if (error) {
